@@ -3,7 +3,7 @@ import XCTest
 @testable import FreelancerRates
 
 final class FreelancerRatesTests: XCTestCase {
-  let runAll = Bool(ProcessInfo.processInfo.environment["RUNALL", default: "true"]) ?? false
+  let runAll = Bool(ProcessInfo.processInfo.environment["RUNALL", default: "false"]) ?? false
 
   func testdailyRateFrom() {
     XCTAssertEqual(dailyRateFrom(hourlyRate: 60), 480.0, accuracy: 0.001)
