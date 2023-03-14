@@ -1,9 +1,9 @@
-let point = (556, 0)
-switch point {
-case (let x, 0):
-    print("X was \(x)")
-case (0, let y):
-    print("Y was \(y)")
-case let (x, y):
-    print("X was \(x) and Y was \(y)")
-}
+import Foundation
+
+let cart = (x: 11.713, y: 5.6405)
+
+let radius  = sqrt(pow(cart.0, 2) + pow(cart.1, 2))
+let phi     = atan2(cart.1, cart.0)
+let returnTuple = (radius, phi)
+
+print(returnTuple)
