@@ -3,7 +3,7 @@ import XCTest
 @testable import MagicianInTraining
 
 final class MagicianInTrainingTests: XCTestCase {
-  let runAll = Bool(ProcessInfo.processInfo.environment["RUNALL", default: "false"]) ?? false
+  let runAll = Bool(ProcessInfo.processInfo.environment["RUNALL", default: "true"]) ?? false
 
   func testGetCard() {
     let stack = (1...10).shuffled()
