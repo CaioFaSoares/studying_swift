@@ -4,6 +4,8 @@
 
 We're currently studying for various hiring process for Swift developers. Among some of these process, a few websites have both mental compilation and coding challenges, and this repo is our "brain" on what we are studying.
 
+Hop over to either mine or Lucas's branch and you're set.
+
 ## How can I use this repo?
 First of all, the exercises in this repo are from Exercism's Swift trail and I can't stress enough how good it is. 
 
