@@ -6,7 +6,7 @@ typealias DrinkTrack = (first: String, last: String, total: Int)?
 
 final class MasterMixologistTests: XCTestCase {
   let runAll =
-    Bool(ProcessInfo.processInfo.environment["RUNALL", default: "false"]) ?? false
+    Bool(ProcessInfo.processInfo.environment["RUNALL", default: "true"]) ?? false
 
   func checkTest(e: DrinkTrack, g: DrinkTrack) -> Bool {
     guard let expected = e, let got = g else { return e == nil && g == nil }
