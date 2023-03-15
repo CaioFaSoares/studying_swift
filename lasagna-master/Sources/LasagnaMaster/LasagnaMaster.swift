@@ -45,8 +45,8 @@ func redWine(layers: String...) -> Bool {
         return count
     }
 
-    let isWhite     = countEach("mozzarella") + countEach("béchamel") + countEach("ricotta")
-    let isRed       = countEach("meat") + countEach("sauce")
+    let isWhite = countEach("mozzarella") + countEach("béchamel") + countEach("ricotta")
+    let isRed   = countEach("meat") + countEach("sauce")
 
     if isRed >= isWhite {
         return true

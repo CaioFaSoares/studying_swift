@@ -36,7 +36,7 @@ func orderByScores(_ scores: [String: Int]) -> [(String, Int)] {
   ) -> Bool {
     let p1 = player1.1
     let p2 = player2.1
-    return p1 > p2
+    return p1 > p2 // if the score of the first player is larger than the score of the second player, return true. therefore, when swift compares and try to sort, it'll put the ones that return true before.
   }
 
   let sortedPlayers = scores.sorted(by: sortByScore)
