@@ -11,5 +11,6 @@ func combineRecords(
   production: (toy: String, id: Int, productLead: String), gifts: (Int, [String]) ) -> (id: Int, toy: String, productLead: String, recipients: [String]) {
     let (giftId, recipients) = gifts 
     let (toy, id, productLead) = production
+    // return (procution.1, production.0, production.2, gifts.1)
   return (id: id, toy: toy, productLead: productLead, recipients: recipients)
 }
