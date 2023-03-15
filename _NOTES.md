@@ -1,7 +1,3 @@
-8
-8 * 8 * 2 -> 8 * 16
+This fucking bangs -> https://exercism.org/tracks/swift/concepts/function-overloading
+Also this -> https://stackoverflow.com/questions/39198626/multiple-conditions-in-guard-statement-in-swift and this https://developer.apple.com/forums/thread/100137
 
-2
-4
-
-2
